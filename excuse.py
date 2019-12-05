@@ -1,7 +1,7 @@
 # coding=utf-8
 import random
 
-a = random.randint(0, 10)
+a = random.randint(0, 12)
 
 print a
 print 'Sajnálom, de nem tudok menni, mert:'
@@ -27,4 +27,8 @@ elif a == 9:
     print 'a munkatársaimmal leszek'
 elif a == 10:
     print 'képzésem lesz'
+elif a == 11:
+    print 'egy játék miatt átállítottam a telefonom időzónáját, s nem szólt az ébresztőm'
+elif a == 12:
+    print 'intettem a buszsofőrnek, hogy vegyen fel, de visszaintett s nem állt meg'
 
