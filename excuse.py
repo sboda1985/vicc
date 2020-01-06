@@ -1,10 +1,10 @@
 # coding=utf-8
 import random
 
-a = random.randint(0, 12)
+a = random.randint(0, 13)
 
 print a
-print 'Sajnálom, de nem tudok menni, mert:'
+print 'Sajnálom, de nem tudok/tudtam menni, mert:'
 if a == 0:
     print 'családi program lesz'
 elif a == 1:
@@ -31,4 +31,6 @@ elif a == 11:
     print 'egy játék miatt átállítottam a telefonom időzónáját, s nem szólt az ébresztőm'
 elif a == 12:
     print 'intettem a buszsofőrnek, hogy vegyen fel, de visszaintett s nem állt meg'
+elif a == 13:
+    print 'Tiszta hó az út és folyamatosan havazik, úgyhogy én nem tudom bevállalni most ezt'
 
