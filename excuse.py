@@ -1,7 +1,7 @@
 # coding=utf-8
 import random
 
-a = random.randint(0, 13)
+a = random.randint(0, 14)
 
 print a
 print 'Sajnálom, de nem tudok/tudtam menni, mert:'
@@ -33,4 +33,5 @@ elif a == 12:
     print 'intettem a buszsofőrnek, hogy vegyen fel, de visszaintett s nem állt meg'
 elif a == 13:
     print 'Tiszta hó az út és folyamatosan havazik, úgyhogy én nem tudom bevállalni most ezt'
-
+elif a == 14:
+    print 'Túlmelegedett a számítógépem s ki kellett tisztítsam (online óra)'
